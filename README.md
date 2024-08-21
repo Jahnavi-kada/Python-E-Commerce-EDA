@@ -8,38 +8,6 @@ E-Commerce Retail Data Analysis is to understand customer behavior and trend usi
 * Matplotlib & Seaborn: Libraries for creating static, animated, and interactive visualizations in Python.
 * Jupyter Notebook: An interactive coding environment for documenting and sharing analysis results.
 
-## Dataset Description:
-
-## Customers
-### Variables:
-* Customer_ID : Unique identifier for each customer.
-* DOB : Date of birth of the customer.
-* Gender : Gender of the customer.
-* City_Code : City code of the customer.
-### Purpose: This dataset is used to store customer demographics and information.
-
-## Prod_cat_info
-### Variables:
-* Prod_cat_code : Product category code.
-* Prod_cat : Product category.
-* Prod_sub_cat_code : Product subcategory code.
-* Prod_subcat : Product subcategory.
-### Purpose: This dataset is used for categorizing products based on their category and subcategory.
-
-## Transactions
-### Variables:
-* transaction_id : Unique identifier for each transaction.
-* cust_id : Customer ID associated with the transaction.
-* tran_date : Date of the transaction.
-* prod_subcat_code : Product subcategory code.
-* prod_cat_code : Product category code.
-* Qty : Quantity of products purchased (Negative if it is a return order).
-* Rate : Unit rate of the product (Negative if it is a return order).
-* Tax : Tax amount for the transaction.
-* total_amt : Total amount of the transaction (Negative if it is a return order).
-* Store_type : Type of store where the transaction occurred.
-### Purpose: This dataset is used for analyzing transactional data, including customer purchase behavior and store performance metrics.
-
 ## Objectives
 * To gain a general overview of the e-commerce dataset and its contents.
 * To clean and preprocess data, thereby handling missing values, removing duplicates, and resolving inconsistencies.
